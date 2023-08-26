@@ -9,7 +9,7 @@ RUN npm install -g npm@latest
 WORKDIR /data/app
 COPY . .
 
-RUN npm install
+RUN npm install -f 
 
 EXPOSE 3000
 
